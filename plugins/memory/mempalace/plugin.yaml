@@ -1,0 +1,7 @@
+name: mempalace
+version: 1.0.0
+description: "Verbatim-first memory system using Wings, Rooms, and Drawers with AAAK compression."
+hooks:
+  - on_session_end
+  - sync_turn
+  - prefetch
